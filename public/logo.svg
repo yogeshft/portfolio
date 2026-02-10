@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 100 100" role="img" aria-label="YY logo">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#111827"/>
+      <stop offset="1" stop-color="#0ea5e9"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect x="5" y="5" width="90" height="90" rx="18" fill="url(#g)"/>
+
+  <!-- Subtle inner border -->
+  <rect x="8" y="8" width="84" height="84" rx="16" fill="none" stroke="rgba(255,255,255,0.22)" stroke-width="2"/>
+
+  <!-- Letters -->
+  <text x="50" y="62"
+        text-anchor="middle"
+        font-family="Inter, system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif"
+        font-size="44"
+        font-weight="800"
+        letter-spacing="2"
+        fill="#ffffff">YY</text>
+</svg>
