@@ -16,6 +16,7 @@ const navItems = [
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
+  const logoUrl = `${import.meta.env.BASE_URL}logo.svg`;
 
   useEffect(() => {
     const handleScroll = () => {
@@ -42,7 +43,7 @@ const Navbar = () => {
             className="flex items-center gap-2"
           >
             <img
-              src="/logo.svg"
+              src={logoUrl}
               alt="Logo"
               className="w-8 h-8 object-contain"
             />

@@ -1,3 +1,5 @@
+const baseUrl = import.meta.env.BASE_URL;
+
 export const portfolioData = {
   personalInfo: {
     name: "Yogesh Yadav",
@@ -11,7 +13,7 @@ export const portfolioData = {
     },
   },
   about: {
-    profileImage: "/profile.jpg",
+    profileImage: `${baseUrl}profile.jpg`,
     description: [
       `Full-stack engineer specializing in performance optimization and component-driven architecture. Delivered 33% API
 performance gains and 40% faster feature development at Tekno Point through MongoDB optimization and reusable React
@@ -22,7 +24,7 @@ Node.js, and MongoDB.`,
   experience: [
     {
       company: "DEPT/Teknopoint",
-      logo: "/public/dept.png", // Placeholder, user needs to add this
+      logo: `${baseUrl}dept.png`,
       totalDuration: "2 year and 3 months",
       location: "Mumbai,India",
       roles: [
@@ -85,7 +87,7 @@ Node.js, and MongoDB.`,
       school: "VIVA Institute of Technology",
       degree: "Computer science Engineering, Computer Science",
       period: "2019-2023",
-      logo: "/public/viva.jpg", // Placeholder
+      logo: `${baseUrl}viva.jpg`,
       activities: "Class CR, Publication Head at CSI",
       skills: [
         "Object-Oriented Programming (OOP)",
@@ -99,7 +101,7 @@ Node.js, and MongoDB.`,
       school: "Thakur College of Science & Commerce",
       degree: "Computer Science",
       period: "2017 - 2019",
-      logo: "/public/thakur.jpg", // Placeholder
+      logo: `${baseUrl}thakur.jpg`,
       activities:
         "Debate, Elocution, Drawing. Sports: Cricket, Badminton, Football, Throwball, Basketball, Shot Put, Discus Throw, Dodgeball, Carrom.",
       skills: ["Leadership", "Teamwork", "Event Management"],
@@ -112,7 +114,7 @@ Node.js, and MongoDB.`,
       date: "Issued Feb 2026",
       credentialId: "UC-141e0f1e-dd53-4d9e-9af3-3ebcb17378fa",
       skills: "Javascript",
-      logo: "/udemy_logo.png", // Placeholder
+      logo: `${baseUrl}udemy_logo.png`,
       link: "https://www.udemy.com/certificate/UC-141e0f1e-dd53-4d9e-9af3-3ebcb17378fa/", // Placeholder link
     },
   ],
